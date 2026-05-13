@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Montañita Brewing EC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="style_layout.css">
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="Imágenes/logomontañita.png" alt="Montañita Brewing Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="https://wa.me/593989555989" class="btn-whatsapp-nav">PEDIR POR WHATSAPP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN CARRUSEL (3 Diapositivas) -->
+    <main class="hero-carousel" id="inicio">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+
+                <!-- Diapositiva 1: Con botón principal -->
+                <div class="carousel-item active">
+                    <img src="Imágenes/imageninicial.png" class="d-block w-100 hero-img" alt="Cerveza 1">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diapositiva 2: Solo Título -->
+                <div class="carousel-item">
+                    <img src="Imágenes/imageninicial02.png" class="d-block w-100 hero-img" alt="Cerveza 2">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diapositiva 3: Solo Título -->
+                <div class="carousel-item">
+                    <img src="Imágenes/imageninicial03.png" class="d-block w-100 hero-img" alt="Cerveza 3">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles Flechas -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </main>
+
+<!-- SECCIÓN SOBRE LA MARCA (Franja Blanca) -->
+<section class="marca-section" id="sobre-la-marca">
+    <div class="marca-layout">
+        
+        <div class="marca-col-side"></div>
+
+        <div class="marca-col-center">
+            <!-- Usamos una clase nueva: img-micro -->
+            <img src="Imágenes/sobrelamarca.jpeg" alt="Sobre la Marca" class="img-micro">
+            
+            <div class="marca-text">
+                <p>Montañita Brewing EC es una marca artesanal creada en 2023 por Jonathan Falcón en Quito, Ecuador.</p>
+                <p>Nace de la pasión por experimentar y crear cervezas únicas que despiertan los sentidos.</p>
+                <p>Nuestros sabores Honey, Maracuyá y Café reflejan la esencia de los ingredientes naturales combinados con creatividad y dedicación.</p>
+                <p>Sin local, sin complicaciones. Solo buena cerveza, a un mensaje de distancia.</p>
+            </div>
+        </div>
+
+        <div class="marca-col-side">
+            <!-- Usamos una clase nueva: sello-micro -->
+            <img src="Imágenes/logo.png" alt="Sello" class="logo02">
+        </div>
+
+    </div>
+</section>
+
+    </div>
+</section>
+</body>
+</html>
